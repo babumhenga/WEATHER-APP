@@ -1,0 +1,59 @@
+.wrapper{
+    
+    box-shadow: 10px 10px 10px rgb(79, 4, 141);
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 120px;
+    background-color: rgb(119, 89, 168);
+    margin-top: 200px;
+}
+body{
+    background-color: rgb(129, 60, 194);
+}
+#inputs h2{
+    color:white;
+    margin-left:50px;
+}
+#area{
+    margin-left:55px;
+    border-radius:5px;
+    height:29px;
+    border:none;
+}
+#find{
+    background-color:rgb(218, 143, 218);
+    border:none;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-left:100px;
+    height:40px;
+    width: 80px;
+    color:white;
+}
+#find:hover{
+    background-color: blueviolet;
+}
+#temp-div p{
+    font-size:60px;
+    margin-top:-30px;
+}
+#weather-info{
+    font-size:20px;
+}
+#hourly-forecast{
+    margin-top:50px;
+    overflow-x:auto;
+    white-space: nowrap;
+    display:flex;
+    justify-content: space-between;
+}
+.houtly-item{
+    flex:0 0 auto;
+    width:80px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color:white;
+}
